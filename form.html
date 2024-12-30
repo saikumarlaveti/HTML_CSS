@@ -5,7 +5,7 @@
 <body>
     <form>
         <h1>Welcome User</h1>
-        <!-- <label>Name :</label>
+        <label>Name :</label>
         <input type="text" required 
         placeholder="Enter Your Name" 
         pattern="[a-zA-Z]{3,10}"
@@ -13,13 +13,53 @@
         <label>age</label>
         <input type="number" min="18" max="29">
         <p>age should be greater than 18 and lessthen 29</p>
-        <br><br> -->
+        <br><br>
         <label>Ph no:</label>
         <input type="text"  required
         placeholder="Enter your number"
         pattern="^[6-9]{1}[0-9]{9}$">
-        <input type="submit">
         <br><br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required
+               pattern="[a-zA-Z0-9._%+-]+@gmail\.com" 
+               title="Please enter a valid Gmail address (e.g., example@gmail.com)">
+        <br><br>
+        <label>Skills :</label>
+        <input type="checkbox">Java
+        <input type="checkbox">Spring FrameWork
+        <input type="checkbox">Spring boot
+        <input type="checkbox">python
+        <br><br>
+        <label>Gender :</label>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">others
+        <br><br>
+        <label>Upload your resume :</label>
+        <input type="file" >
+        <br><br>
+        <label>Choose your Date :</label>
+        <input type="date" min="2024-01-01" max="2025-12-01">
+        <br><br>
+        <label>Range :</label> 
+        <input type="range"> 
+        <br><br>
+        <label>Color</label>
+        <input type="color">
+        <br><br>
+        <label>Search</label>
+        <input type="search">
+        <br><br>
+        <label>Select Your city:</label>
+        <select>
+            <option>select</option>
+            <option>Andhra Pradesh</option>
+            <option>Telangana</option>
+            <option>Others</option>
+        </select>
+        
+        <br><br>
+        <input type="submit">
         <input type="reset">
     </form>
 </body>
