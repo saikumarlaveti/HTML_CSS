@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Border</title>
+        <style>
+            #one{
+                border: 5px solid red;
+                height: 200px;
+                width: 200px;
+                border-radius: 100px;
+                /* border-top-right-radius:200px ; */
+            }
+            #Two{
+                border: 5px solid greenyellow;
+                
+                height: 200px;
+                width: 200px;
+                border-left: 2px dotted green;
+                border-radius: 100px 50px;
+            }
+            #Three{
+                border: 5px solid red;
+                height: 200px;
+                width: 200px;
+                border-radius: 100px 50px 25px;
+            }
+            #four{
+                border: 5px solid red;
+                /* border-top: ;
+                border-bottom: ;
+                border-left: ;
+                border-right: ; */
+                height: 200px;
+                width: 200px;
+                /* border-radius: 100px 20px 50px 20px;  same as */
+                border-top-left-radius: 100px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 20px;  
+            }
+            #five{
+                border-left:5px dotted red ;
+                border-right:5px solid greenyellow;
+                border-bottom:5px double palevioletred;
+                border-top:5px solid red ;
+                height: 200px;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>border-radius with one value:100px  This is apply all the four corners</h3>
+        <p id="one">
+
+        </p>
+        
+        <h3>border-radius with Two values: 100px 50px</h3>
+        <p id="Two">
+        </p>
+
+        <h3>border-radius with Three values: 100px 50px 25px </h3>
+        <p id="Three">
+
+        </p>
+        <h3>border-radius with Three values: 100px 20px 50px 20px</h3>
+        <p id="four">
+
+        </p>
+
+        <h3>Border changing sides</h3>
+        <p id="five"></p>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animation</title>
+    <style>
+        p{
+            border: 10px solid greenyellow;
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            animation: ani 2s infinite;
+            border-radius: 200px;
+        }
+        @keyframes ani {
+        from{border: 10px solid greenyellow;}
+        to{border: 20px solid red;}
+        }
+        h3{
+            border: 10px double red;
+            height: 100px;
+            width: 100px;
+            animation-name: animation_1;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animation_1 {
+            from{border: 20px double green;
+            background-color: green;}
+            to{border: 20px double yellow;
+            background-color: yellow;}
+            
+        }
+        </style>
+</head>
+<body>
+    <p></p>
+    <h3></h3>
+</body>
+</html>
