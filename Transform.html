@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transform</title>
+        <style>
+            #one{
+                border: 5px solid greenyellow;
+                height: 100px;
+                width: 100px;
+                
+            }
+            #two {
+                border: 5px solid greenyellow;
+                height: 100px;
+                width: 100px;
+                transform: scaleX(2);
+                margin-left: 120px;
+            }
+            #three{
+                border: 5px solid greenyellow;
+                height: 100px;
+                width: 100px;
+                transform: scaleY(2);
+                margin-left: 120px;
+            }
+            #four{
+                border: 5px solid greenyellow;
+                height: 100px;
+                width: 100px;
+                transform: skewX(40deg);
+                margin-left: 120px; 
+            }
+            #five{
+                border: 5px solid greenyellow;
+                height: 100px;
+                width: 100px;
+                transform: skewY(40deg);
+                margin-left: 120px; 
+            }
+            #six{
+                border: 5px solid greenyellow;
+                height: 100px;
+                width: 100px;
+                transform: rotate(90deg);
+                margin-left: 120px; 
+            }
+        </style>
+    </head>
+    <body>
+        <h3>original box</h3>
+        <p id="one"></p>
+        
+        <h3>after apply scaleX() </h3>
+        <p id="two"></p>
+
+        <h3>after apply scaleyY() </h3>
+        <p id="three"></p>
+
+        <h3>after apply skewX() </h3>
+        <p id="four"></p>
+
+        <h3>after apply skewY() </h3>
+        <p id="five"></p>
+
+        <h3>after apply rotation() </h3>
+        <p id="six">Box</p>
+    </body>
+</html>
