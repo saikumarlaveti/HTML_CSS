@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PhoneValidation</title>
+<style>
+    #msg{
+        color: red;
+    }
+</style>
+<script src="PhoneNoVal.js"></script>
+</head>
+<body>
+    <form onsubmit="return validate()" action="https://www.google.co.in/">
+    <label>Phone Number :</label>
+    <input type="text" id="phone"/>
+    <span id="msg">*</span><br>
+    <input type="submit"/>
+    </form>
+</body>
+</html>
